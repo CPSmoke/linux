@@ -25,4 +25,4 @@ mysql -u(user) cy28463_test -p вход на mysql
 	2 способ вход mysql вход в базу
 	source dumpname.sql развертывание всех данных
 	quit выход
-	
+	/
