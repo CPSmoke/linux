@@ -1,0 +1,28 @@
+pwd - просмотр пути
+cd .. переход на уровень выше
+ls просмотр содержимого
+ls -la подробный просмотр
+cat просмотр файла
+mkdir ... создание каталога
+rmdir ... удаление пустого каталога
+rm -r алтернатива rmdir
+rm удаление файлов
+touch ... создание файла
+less ... просмотр файла Q для выхода
+nano ... консольный редактор
+	ctr + x\f2 выход с сохранением Y or N
+	ctr + w\f6 искать текст
+cp test.txt ~/public_html/test_copy.txt копирование файла
+mv test_copt.txt test.txt переименовка
+chmod -R(рекурсив не только ддириктория но и файлы в ней) 775(доступ расшир) upload_img/
+chmod 775 test.txt
+mysql -u(user) cy28463_test -p вход на mysql
+	show databases; просмотр всех баз данных
+	use cy284_test; выбор базы
+	show tables; просмотр таблицы
+	select * from tablename; выбор таблицы
+	mysqldump -u cy28463_test -p cy28463_test(название базы данных) > создание дампа(< вставка дампа) dumpname.sql 
+	2 способ вход mysql вход в базу
+	source dumpname.sql развертывание всех данных
+	quit выход
+	
